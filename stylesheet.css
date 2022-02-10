@@ -24,6 +24,7 @@ font-family: 'Bitter', sans-serif;
  position: fixed;
  height: 100%;
  overflow: auto;
+font-size: 20px;
 
 }
 
@@ -80,7 +81,11 @@ div.content {
 .responsive {
  width: 75%;
  height: auto;
-
+}
+.small {
+width: 20%;
+ height: auto;
+Float: right;
 }
 
 ​    body {
