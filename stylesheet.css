@@ -7,7 +7,8 @@ html {
       background-color: #ffffff;
 background-image: url("texturebg.png");
 background-attachment: fixed;    
-font-family: 'Roboto Mono', monospace;}
+font-family: 'Roboto Mono', monospace;
+}
 
 h1, h2, h3, h4, h5, h6 {
 ​      margin-top: 1.4em;
@@ -26,6 +27,11 @@ h2 {
 h1 {
       font-size: 72px;
 border-bottom: 5px solid #320032;
+}
+
+P {
+letter-spacing: -.05rem;
+
 }
 
 .myDiv {
@@ -124,12 +130,16 @@ width: 100%;
 ​      font-kerning: normal;
 font-family: 'Roboto Mono', monospace;
 
+
 ​    }
 
 p {
 ​      margin: 1em 0;
-font-family: 'Roboto Mono', monospace;​	 }
-​    @media (max-width: 600px) {
+font-family: 'Roboto Mono', monospace;​
+	 
+}
+​   
+ @media (max-width: 600px) {
 ​      body {
 
 ​        font-size: 0.9em;
