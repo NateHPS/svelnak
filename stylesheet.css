@@ -11,7 +11,7 @@ font-family: 'Roboto Mono', monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
-​      margin-top: 1.4em;
+       margin-top: 1.4em;
 font-family: 'VT323', monospace;
 		color: #320032;	  
 text-transform: uppercase;  }
@@ -61,8 +61,6 @@ a.button1{
   }
 
 
-
-
 .audio {
 Float: right
 }
@@ -71,6 +69,13 @@ font-size: 15px;
   font-style: italic;
   line-height: 0px;
 }
+
+.credit {
+  font-size: 15px;
+    font-style: italic;
+    line-height: 15px;
+  }
+
 .myDiv {
   background-color: yellow;
   text-align: center;
@@ -140,9 +145,10 @@ div.content {
 }
 
 .responsive {
- width: 75%;
- height: auto;
-}
+  width: 75%;
+  height: auto;
+ }
+
 .small {
 width: 20%;
  height: auto;
